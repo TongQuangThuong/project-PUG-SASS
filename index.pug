@@ -1,0 +1,538 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Rail Way
+  link(rel='stylesheet' href='./css/style.css')
+  link(rel='stylesheet' href='./reset.css')
+  link(href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./themify-icons/themify-icons/themify-icons.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.main
+  .header
+    .container
+      .header-heading
+        a.header-logo(href='./index.html')
+          .header-img
+            img(src='https://image.shutterstock.com/z/stock-vector-triangle-and-circle-logo-vector-344624207.jpg' alt='logo')
+          .header-rail Railway
+        .header-menu
+          ul.header-list
+            li.header-item
+              a.header-link(href='#' type='_blank') Blog
+            li.header-item
+              a.header-link(href='#') Docs
+            li.header-item
+              a.header-link(href='#') About
+            li.header-item
+              a.header-link(href='#') Help
+            li.header-item
+              a.header-link(href='#') Pricing
+            li.header-item
+              a.header-link(href='#') Login
+        .header-hambuger
+          i.ti-menu-alt
+  section
+    .container
+      .hero
+        .hero-content
+          .hero-heading
+            | Bring your code,
+            | we&apos;ll handle the rest.
+          .hero-text.text
+            | Made for any language, for projects big and small.
+            | Railway is the cloud that takes the complexity out of shipping software.
+          .hero-btn Start a New Project
+        .hero-image
+          img.image1(src='	https://railway.app/illustrations/computer-city-lines--dark.svg' alt='')
+          img.image2(src='https://railway.app/illustrations/deployments-sc--dark.svg' alt='')
+  section
+    .feature.feature--primary
+      .container
+        .feature-main
+          .feature-tinker
+            .feature-number.number--primary 1
+            .feature-title.title--primary
+              h3.title--colPrimary Now Boarding, Local.
+              h1 Start and Tinker
+            .feature-text
+              | Begin with your repository, or start with a template. Our tooling
+              | extends your app with plugins and variable management so
+              | environments
+              | are the same live as local.
+          .feature-menu.menu--primary
+            .item1.feature-item.item--primary
+              .feature-content
+                .feature-heading.heading--primary
+                  | Solid Base
+                p.text
+                  | Start from scratch or pick a template to deploy
+                  | instantly, from bots to blogs.
+              .feature-logo.logo--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.circle-item
+                  i.ti-apple
+            .item2.feature-item.item--primary
+              .feature-content
+                .feature-heading.heading--primary
+                  | Infrastructure as
+                  | Legos
+                p.text
+                  | Add a cron job, a database, or another
+                  | (micro)service! Railway grows with your application..
+              .feature-logo.logo--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.circle-item
+                  i.ti-shortcode
+            .item3.train--primary
+              .feature-train
+                img.train(src='https://railway.app/illustrations/trains/01-train-dark.svg' alt='')
+            .item4.feature-item.item--primary
+              .feature-content
+                .feature-heading.heading--primary
+                  | Secrets Management
+                p.text
+                  | Keep Environment Variables and Secrets for your
+                  | team, securely, in one place.
+              .feature-logo.logo--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.circle-item
+                  i.ti-drupal
+            .item5.feature-item.item--primary
+              .feature-content
+                .feature-heading.heading--primary Railway CLI
+                p.text
+                  | Connect to your infrastructure + secrets, from
+                  | any terminal in the world.
+              .feature-logo.logo--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.square-item.square--primary
+                span.logos.circle-item
+                  i.ti-joomla
+    .feature.feature--second
+      .container
+        .feature-main
+          .feature-tinker
+            .feature-number.number--secondary 2
+            .feature-title.title--secondary
+              h3.title--colSecondary Now Boarding, Local.
+              h1 Start and Tinker
+            .feature-text
+              | Begin with your repository, or start with a template. Our tooling
+              | extends your app with plugins and variable management so
+              | environments
+              | are the same live as local.
+          .feature-menu.menu--secondary
+            .item1.feature-item.item--secondary
+              .feature-content
+                .feature-heading.heading--secondary Solid Base
+                p.text
+                  | Start from scratch or pick a template to deploy
+                  | instantly, from bots to blogs.
+              .feature-logo.logo--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.circle-item
+                  i.ti-apple
+            .item2.feature-item.item--secondary
+              .feature-content
+                .feature-heading.heading--secondary
+                  | Infrastructure
+                  | as Legos
+                p.text
+                  | Add a cron job, a database, or another
+                  | (micro)service! Railway grows with your application..
+              .feature-logo.logo--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.circle-item
+                  i.ti-shortcode
+            .item3.train--secondary
+              .feature-listTrain
+                .feature-itemTrain
+                  .feature-train
+                    img.train(src='https://railway.app/illustrations/trains/02-train-b-dark.svg' alt='')
+                .feature-itemTrain
+                  .feature-train
+                    img.train2(src='https://railway.app/illustrations/trains/02-train-a-dark.svg' alt='')
+                .feature-itemTrain
+                  .feature-train
+                    img.train(src='https://railway.app/illustrations/trains/02-train-c-dark.svg' alt='')
+            .item4.feature-item.item--secondary
+              .feature-content
+                .feature-heading.heading--secondary
+                  | Secrets
+                  | Management
+                p.text
+                  | Keep Environment Variables and Secrets for your
+                  | team, securely, in one place.
+              .feature-logo.logo--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.circle-item
+                  i.ti-drupal
+            .item5.feature-item.item--secondary
+              .feature-content
+                .feature-heading.heading--secondary
+                  | Railway CLI
+                p.text
+                  | Connect to your infrastructure + secrets, from
+                  | any terminal in the world.
+              .feature-logo.logo--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.square-item.square--secondary
+                span.logos.circle-item
+                  i.ti-joomla
+    .feature.feature--second.feature--third
+      .container
+        .feature-main.feature--main3
+          .feature-tinker
+            .feature-number.number--third 3
+            .feature-title.title--third
+              h3.title--colThird Now Boarding, Local.
+              h1 Start and Tinker
+            .feature-text
+              | Begin with your repository, or start with a template. Our tooling
+              | extends your app with plugins and variable management so
+              | environments
+              | are the same live as local.
+          .feature-menu.menu--third
+            .item1.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third Solid Base
+                p.text
+                  | Start from scratch or pick a template to deploy
+                  | instantly, from bots to blogs.
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-apple
+            .item2.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third
+                  | Infrastructure as
+                  | Legos
+                p.text
+                  | Add a cron job, a database, or another
+                  | (micro)service! Railway grows with your application..
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-shortcode
+            .item3.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third
+                  | Secrets Management
+                p.text
+                  | Keep Environment Variables and Secrets for your
+                  | team, securely, in one place.
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-drupal
+            .item4.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third
+                  | Secrets Management
+                p.text
+                  | Keep Environment Variables and Secrets for your
+                  | team, securely, in one place.
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-drupal
+            .item5.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third
+                  | Secrets Management
+                p.text
+                  | Keep Environment Variables and Secrets for your
+                  | team, securely, in one place.
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-drupal
+            .item6.feature-item.item--third
+              .feature-content
+                .feature-heading.heading--third Railway CLI
+                p.text
+                  | Connect to your infrastructure + secrets, from
+                  | any terminal in the world.
+              .feature-logo.logo--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.square-item.square--third
+                span.logos.circle-item
+                  i.ti-joomla
+  section
+    .idea
+      .idea-list
+        .idea-item.idea-item1
+          | Ideal for any kind of 
+          br
+          |  product. 
+          br
+          |                         Such as...
+        .idea-item.idea-item2
+          .idea-img
+            img(src='https://railway.app/_next/image?url=%2Fcustomers%2Flogo--atmos.svg&w=48&q=75' alt='')
+          .idea-heading Atmos
+          p.idea-text
+            | Real estate 
+            br
+            |  home customization
+        .idea-item.idea-item3
+          .idea-img
+            img(src='https://railway.app/_next/image?url=%2Fcustomers%2Flogo-zora.svg&w=48&q=75' alt='')
+          .idea-heading Zora
+          p.idea-text
+            | Decentralized auctions 
+            br
+            |  house for NFTs
+        .idea-item.idea-item4
+          .idea-img
+            img(src='https://railway.app/_next/image?url=%2Fcustomers%2Flogo--fion-tech.svg&w=48&q=75' alt='')
+          .idea-heading Fion Tech
+          p.idea-text
+            | Machine learning models for 
+            br
+            |  fire prediction and
+            |                             detection
+        .idea-item.idea-item5
+          .idea-img
+            img(src='https://railway.app/_next/image?url=%2Fcustomers%2Flogo--operand.svg&w=48&q=75' alt='')
+          .idea-heading Operand
+          p.idea-text
+            | Reimagining natural 
+            br
+            |  language interfaces
+        .idea-item.idea-item6
+          .idea-img
+            img(src='	https://railway.app/_next/image?url=%2Fcustomers%2Flogo--stepzen.svg&w=48&q=75' alt='')
+          .idea-heading StepZen
+          p.idea-text
+            | Easy GraphQL endpoints 
+            br
+            |  for application data
+        .idea-item.idea-item7
+          .idea-img
+            img(src='	https://railway.app/_next/image?url=%2Fcustomers%2Flogo--slip.svg&w=48&q=75                            ' alt='')
+          .idea-heading Slip
+          p.idea-text
+            | Easily build and sell interactive 
+            br
+            |  programming
+            |                             courses
+        .idea-item.idea-item8
+          | and many more...
+  section
+    .dash
+      .dash-head
+        .dash-title.heading First Class Features
+        p.dash-decs.text.text--primary A dashboard that provides unparalleled hospitality
+      .dash-main
+        .container
+          .dash-list
+            .dash-item
+              .dash-info
+                h5.dash-heading.heading-md In-App Database Management Interface
+                .drive--primary
+                p.dash-text.text-md16.text--primary
+                  | Create columns, rows, tables, and manage plugins (Redis, PostgreSQL, MongoDB, MySQL) from the dashboard.
+                .dash-nav.text-md18
+                  .btn--primary
+                    i.ti-control-play.dash-play
+                    |                                             Watch Demo (37s)
+                  .dash-view
+                    a.dash-link(href='#')
+                      | View docs 
+                      i.ti-arrow-right.dash-right
+              .dash-img
+                .dash-mac
+                img(src='https://railway.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Frailway%2Fimage%2Fupload%2Fv1631828873%2Fscreenshots%2Fpg-tables-dark.png%3Fv%3D2&w=3840&q=100' alt='')
+            .drive
+            .dash-item
+              .dash-info
+                h5.dash-heading.heading-md Secrets Management
+                .drive--primary
+                p.dash-text.text-md16.text--primary
+                  | Railway handles all environment variables in one pane. Maintain different variables from dev, staging, to prod.
+                .dash-nav.text-md18
+                  .btn--primary
+                    i.ti-control-play.dash-play
+                    |                                             Watch Demo (29s)
+                  .dash-view
+                    a.dash-link(href='#')
+                      | View docs 
+                      i.ti-arrow-right.dash-right
+              .dash-img
+                .dash-mac
+                img(src='https://railway.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Frailway%2Fimage%2Fupload%2Fv1631828873%2Fscreenshots%2Fvariables-dark.png%3Fv%3D2&w=3840&q=100' alt='')
+            .drive
+            .dash-item
+              .dash-info
+                h5.dash-heading.heading-md All your deployments in one place
+                .drive--primary
+                p.dash-text.text-md16.text--primary
+                  | Conveniently see builds and deploys with the ability to pipe deployment status out via Webhooks.
+                .dash-nav.text-md18
+                  .btn--primary
+                    i.ti-control-play.dash-play
+                    |                                             Watch Demo (34s)
+                  .dash-view
+                    a.dash-link(href='#')
+                      | View docs 
+                      i.ti-arrow-right.dash-right
+              .dash-img
+                .dash-mac
+                img(src='https://railway.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Frailway%2Fimage%2Fupload%2Fv1631828873%2Fscreenshots%2Fdeploys-dark.png%3Fv%3D2&w=3840&q=100' alt='')
+            .drive
+            .dash-table
+              .dash-row
+                .dash-col
+                  .dash-im
+                    img(src='https://railway.app/_next/image?url=%2Fillustrations%2Ffeature--cmd-palette-dark.svg&w=1920&q=75' alt='')
+                  .heading-small Keyboard Friendly
+                  p.dash-text.text-md16.text--primary
+                    | Command the interface at your fingertips. Go to any page, create an object, secret, and much more.
+                  .dash-view
+                    a.dash-link(href='#') Show Command Palette (or &#x2318;K)
+                .dash-col
+                  .dash-im
+                    img(src='	https://railway.app/_next/image?url=%2Fillustrations%2Ffeature--project-cost-dark.svg&w=1920&q=75\
+                    ' alt='')
+                  .heading-small Live usage metrics
+                  p.dash-text.text-md16.text--primary
+                    | Graph fans rejoice! Project metrics give you up to the minute breakdowns on usage patterns up to 7 days.
+                  .dash-view
+                    a.dash-link(href='#') View our Plans -&gt;
+  section
+    .tool
+      .container
+        .tool-main
+          .tool-list
+            .tool-item.item1
+              .tool-img
+                img(src='https://devicons.railway.app/Code%20Server?variant=light' alt='')
+              h3.tool-heading Code Server
+              p.tool-text.text-small.text--primary A self-hosted version of code-server from Coder
+              a.tool-link(href='#') Deploy
+            .tool-item.item2
+              .tool-img
+                img(src='https://devicons.railway.app/Telegram%20Bot?variant=light' alt='')
+              h3.tool-heading Telegram Bot
+              p.tool-text.text-small.text--primary An ExpressJS server with a Telegram bot
+              a.tool-link(href='#') Deploy
+            .tool-item.item3
+              .tool-img
+                img(src='https://devicons.railway.app/BlitzJS?variant=light' alt='')
+              h3.tool-heading BlitzJS
+              p.tool-text.text-small.text--primary Example Blitz app that connects to a PostgreSQL database
+              a.tool-link(href='#') Deploy
+            .tool-content
+              .tool-title.heading
+                | Get started in minutes!
+              p.tool-textMain.text-md18.text-white
+                | Choose from a versatile selection of applications ready to be deployed in a variety of languages.
+              a.tool-link.tool-linkMain(href='#')
+                i.ti-arrow-right.tool-icon
+                |                                     View all 44 Starters
+            .tool-item.item4
+              .tool-img
+                img(src='https://devicons.railway.app/Discord%20bot?variant=light' alt='')
+              h3.tool-heading Discord bot
+              p.tool-text.text-small.text--primary A Discord bot written in JavaScript
+              a.tool-link(href='#') Deploy
+            .tool-item.item5
+              .tool-img
+                img(src='https://devicons.railway.app/Calendso?variant=light' alt='')
+              h3.tool-heading Calendso
+              p.tool-text.text-small.text--primary A self-hosted version of Calendso using a PostgreSQL database
+              a.tool-link(href='#') Deploy
+            .tool-item.item6
+              .tool-img
+                img(src='https://devicons.railway.app/NextJS%20Prisma?variant=light' alt='')
+              h3.tool-heading NextJS Prisma
+              p.tool-text.text-small.text--primary A NextJS app using Prisma with a PostgreSQL database
+              a.tool-link(href='#') Deploy
+            .tool-item.item7
+              .tool-img
+                img(src='https://devicons.railway.app/Ghost?variant=light' alt='')
+              h3.tool-heading Ghost
+              p.tool-text.text-small.text--primary A self-hosted version of Ghost using a MySQL database
+              a.tool-link(href='#') Deploy
+            .tool-item.item8
+              .tool-img
+                img(src='https://devicons.railway.app/Flask?variant=light' alt='')
+              h3.tool-heading Flask
+              p.tool-text.text-small.text--primary A popular minimal server framework for Python.
+              a.tool-link(href='#') Deploy
+  section
+    .product
+      .container
+        .product-main
+          .product-heading.heading Deploy an App to Production in Minutes
+          .product-text.text
+            | Join thousands of people deploying hundreds of thousands of applications effortlessly on Railway
+          .product-btn Click this Button
+  section
+    .footer
+      .container
+        .footer-main
+          .footer-list
+            .footer-item.item1
+              .footer-col
+                .footer-logo
+                  img(src='https://image.shutterstock.com/z/stock-vector-triangle-and-circle-logo-vector-344624207.jpg' alt='')
+                p.text-small.text--primary.footer-text
+                  | Copyright &copy; 2021 Railway Corp.
+                  | All rights reserved.
+            .footer-item.item2
+              .footer-col
+                h5.footer-title.text--primary PRODUCT
+                a.footer-link.text.text-md16(href='#') Changelog
+                a.footer-link.text.text-md16(href='#') Pricing
+                a.footer-link.text.text-md16(href='#') Starters
+                a.footer-link.text.text-md16(href='#') Feedback
+            .footer-item.item3
+              .footer-col
+                h5.footer-title.text--primary COMPANY
+                a.footer-link.text.text-md16(href='#') About
+                a.footer-link.text.text-md16(href='#') Careers
+                a.footer-link.text.text-md16(href='#') Blog
+                a.footer-link.text.text-md16(href='#') Shop
+            .footer-item.item4
+              .footer-col
+                h5.footer-title.text--primary CONTACT
+                a.footer-link.text.text-md16(href='#') Discord
+                a.footer-link.text.text-md16(href='#') Twitter
+                a.footer-link.text.text-md16(href='#') GitHub
+                a.footer-link.text.text-md16(href='#') Email
+            .footer-item.item5
+              .footer-col
+                h5.footer-title.text--primary LEGAL
+                a.footer-link.text.text-md16(href='#') Fair Use
+                a.footer-link.text.text-md16(href='#') Privacy Policy
+                a.footer-link.text.text-md16(href='#') Terms of Service
